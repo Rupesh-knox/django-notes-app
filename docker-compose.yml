@@ -13,8 +13,8 @@ services:
     networks:
       - notes-app-nw
 
-  django_app: docker push rupeshs11/django-noteapp:latest
-    image: django_app
+  django_app: 
+    image: rupeshs11/django-noteapp:latest
     container_name: "django_cont"
     ports:
       - "8000:8000"
